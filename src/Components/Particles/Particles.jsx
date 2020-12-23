@@ -1,3 +1,9 @@
+/**
+ * @file Particles.jsx
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 import React from 'react';
 import Particles from 'react-particles-js';
 import './Particles.css';

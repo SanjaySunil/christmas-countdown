@@ -1,3 +1,9 @@
+/**
+ * @file Countdown.jsx
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 const Countdown = () => {
     var currentYear = new Date().getFullYear();
     var target_date = new Date("Dec 25, " + currentYear).getTime();
