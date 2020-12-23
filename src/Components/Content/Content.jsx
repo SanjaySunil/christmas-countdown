@@ -1,12 +1,12 @@
 /**
- * @file Title.jsx
+ * @file Content.jsx
  * @author Sanjay Sunil
  * @license GPL-3.0
  */
 
 import React from 'react';
 
-const Title = () => {
+const Content = () => {
     return (
         <div className="container">
             <div className="centered">
@@ -17,4 +17,4 @@ const Title = () => {
     )
 }
 
-export default Title;
+export default Content;

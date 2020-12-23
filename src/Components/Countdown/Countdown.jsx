@@ -4,6 +4,8 @@
  * @license GPL-3.0
  */
 
+import './Countdown.css';
+
 const Countdown = () => {
     var currentYear = new Date().getFullYear();
     var target_date = new Date("Dec 25, " + currentYear).getTime();
@@ -32,13 +34,11 @@ const Countdown = () => {
         minutes = parseInt(seconds_left / 60);
         seconds = parseInt(seconds_left % 60);
 
-        if (days == 0 && numD == 24) {
-            title.innerHTML = "Tommorrow is Christmas!";
-        }
-
-        else if (days == 0 ) {
+        if (numD == 25) {
             title.innerHTML = "Merry Christmas!";
-            countdown.innerHTML = "";
+            title.style.fontSize = '5vh';
+            countdown.style.fontSize = '2vh';
+            countdown.innerHTML = "and a Happy New Year!";
         }
 
         else if (days < 0) {

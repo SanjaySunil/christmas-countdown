@@ -14,15 +14,7 @@
     vertical-align: middle;
   }
   
-  #title {
-    font-size: 7vw;
-  }
-  
-  #daycount {
-    font-size: 3vw;
-  }
-  
-  #footer-text {
+  .footer-text {
       font-size: 15px;
   }
 
