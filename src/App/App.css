@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+
+body {
+  margin: 0;
+  background-color: black;
+  color: #fff;
+  font-family: "Rubik Mono One", sans-serif;
+}
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+.centered {
+  padding: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  margin: 10px;
+}
+.container:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+.footer {
+  position: fixed;
+  top: 75;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+.centered {
+  padding: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  margin: 10px;
+}
+.footer:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#title {
+  font-size: 7vw;
+}
+
+#daycount {
+  font-size: 3vw;
+}
+
+#footer-text {
+    font-size: 1vw;
+}
