@@ -25,3 +25,14 @@
   #footer-text {
       font-size: 15px;
   }
+
+  a {
+      text-decoration: none;
+      color: #808080;
+      transition: 0.25s;
+  }
+
+  a:hover {
+      transition: 0.25s;
+      color: #fff;
+  }

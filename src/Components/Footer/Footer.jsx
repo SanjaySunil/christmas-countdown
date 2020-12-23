@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="centered">
-                <p id="footer-text">Sanjay Sunil</p>
+                <a href="https://sanjaysunil.me"><p id="footer-text">Sanjay Sunil</p></a>
             </div>
         </div>
     )
