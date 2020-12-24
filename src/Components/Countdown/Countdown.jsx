@@ -51,6 +51,12 @@ const Countdown = () => {
             countdown.innerHTML = days + "d " + hours + "h "
             + minutes + "m " + seconds + "s ";
         }
+
+        else {
+            title.innerHTML = "Christmas Countdown"
+            countdown.innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+        }
         
     }, 0);
 }
