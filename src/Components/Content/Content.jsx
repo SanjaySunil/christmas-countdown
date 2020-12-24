@@ -5,7 +5,7 @@
  */
 
 import React, { Component } from "react"
-  
+
 class Content extends Component {
     playAudio() {
         const audioEl = document.getElementsByClassName("audio-element")[0]
@@ -17,11 +17,11 @@ class Content extends Component {
                 <div className="centered">
                     <span id="title"></span><br />
                     <span id="daycount"></span><br />
-                    <button onClick={this.playAudio}>
-                        <span>Play Audio</span>
+                    <button id="music-button" onClick={this.playAudio}>
+                        <span>Play Music</span>
                     </button>
                     <audio className="audio-element">
-                        <source src="../../Assets/thatAmazingChristmasMusic.mp3"></source>
+                        <source src="https://assets.sanjaysunil.me/xmas-countdown/thatAmazingChristmasMusic.mp3"></source>
                     </audio>
                 </div>
             </div>

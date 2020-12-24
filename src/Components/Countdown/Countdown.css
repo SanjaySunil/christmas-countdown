@@ -1,8 +1,14 @@
 #title {
   font-family: "Rubik Mono One", sans-serif;
   font-size: 7vw;
+  display: none;
 }
 
 #daycount {
   font-size: 3vw;
+  display: none;
+}
+
+#music-button {
+  display: none;
 }

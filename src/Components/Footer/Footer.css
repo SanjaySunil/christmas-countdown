@@ -1,30 +1,31 @@
 .footer {
-    position: fixed;
-    top: 75;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center;
-  }
-  .footer:before {
-    content: "";
-    display: inline-block;
-    width: 0;
-    height: 100%;
-    vertical-align: middle;
-  }
-  
-  .footer-text {
-      font-size: 15px;
-  }
+  position: fixed;
+  top: 75;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  display: none;
+}
+.footer:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
 
-  a {
-      text-decoration: none;
-      color: #808080;
-      transition: 0.25s;
-  }
+.footer-text {
+  font-size: 15px;
+}
 
-  a:hover {
-      transition: 0.25s;
-      color: #fff;
-  }
+a {
+  text-decoration: none;
+  color: #808080;
+  transition: 0.25s;
+}
+
+a:hover {
+  transition: 0.25s;
+  color: #fff;
+}
